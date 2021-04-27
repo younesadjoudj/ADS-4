@@ -1,5 +1,12 @@
 # Алгоритмы и структуры данных (ADS-4)
 
+![GitHub pull requests](https://img.shields.io/github/issues-pr/NNTU-CS/ADS-4)
+![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed/NNTU-CS/ADS-4)
+
+Сроки выполнения задания:
+
+- **ИСТ-1,2,3,4** - **до 13 апреля** ![Relative date](https://img.shields.io/date/1620853200)
+
 ## Задание
 
 > Написать реализацию структуры данных "очередь с приоритетом" **PQueue**
