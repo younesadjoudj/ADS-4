@@ -13,7 +13,7 @@ TEST(lab4, test1_1) {
     ASSERT_EQ(c2.ch, 'a');
 }
 
-TEST(lab4,test1_2) {
+TEST(lab4, test1_2) {
     TPQueue<SYM> pqueue;
     pqueue.push(SYM{'a', 4});
     pqueue.push(SYM{'b', 4});
@@ -23,7 +23,7 @@ TEST(lab4,test1_2) {
     ASSERT_EQ(c2.ch, 'b');
 }
 
-TEST(lab4,test1_3) {
+TEST(lab4, test1_3) {
     TPQueue<SYM> pqueue;
     pqueue.push(SYM{'a', 4});
     pqueue.push(SYM{'b', 4});
