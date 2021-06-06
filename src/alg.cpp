@@ -65,3 +65,27 @@ T TPQueue<T>::pop() {
     if (begin > size) {
         begin -= size + 1;
     }
+    return item;
+}
+
+template<typename T>
+T TPQueue<T>::get() const {
+    assert(count > 0);
+    return arr[begin];
+}
+
+template<typename T>
+bool TPQueue<T>::isEmpty() const {
+    return count == 0;
+}
+
+template<typename T>
+bool TPQueue<T>::isFull() const {
+    return count == size;
+}
+
+struct SYM {
+  char ch;
+  int  prior;
+};
+#endif
